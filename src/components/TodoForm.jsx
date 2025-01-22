@@ -8,7 +8,7 @@ function TodoForm() {
     const add = (e) => {
         e.preventDefault;
         if(!todo){
-            return addTodo({ todo , Completed : false})
+            return addTodo({ todo : todo , Completed : false})
             setTodo('');
         }
     }
