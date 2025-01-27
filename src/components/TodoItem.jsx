@@ -23,6 +23,8 @@ function TodoItem({ todo }) {
                 todo.completed ? "bg-[#c6e9a7]" : "bg-[#ccbed7]"
             }`}
         >
+
+            {/* input texts*/}
             <input
                 type="checkbox"
                 className="cursor-pointer"
